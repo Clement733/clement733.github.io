@@ -2143,7 +2143,7 @@ input, select, textarea {
 
 			.image.avatar img {
 				border-radius: 100%;
-				width: 100%;
+				width: 150%;
 			}
 
 /* List */
@@ -2151,11 +2151,11 @@ input, select, textarea {
 	display: flex;
 	flex-direction: row;
   }
-  
+
   .iframe {
 	flex: 6;
   }
-  
+
   .address {
 	flex: 2;
   }

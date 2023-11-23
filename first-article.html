@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>My website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="#" class="image avatar"><img src="images/Portfolio_image_new.jpg" alt=""/></a>
+					<h1><strong>CIPRIANI Clément</strong><br />
+						Data Scientist || MLOps || Computer Vision<br />
+            I enjoy challenging myself by tackling tough problems<br />
+				</div>
+			</header>
+
+      <div id="main">
+        <!-- Blog Article -->
+        <article>
+          <header class="major">
+            <h2>How OpenCV's Challenges on ProPosture Became a Key Learning Experience</h2>
+            <p>Published on <time datetime="2023-11-23">November 23, 2023</time> by CIPRIANI Clément</p>
+          </header>
+
+          <!-- Article Content -->
+          <section>
+            <p>
+              <!-- Your article content goes here -->
+              ProPosture, our AI form advisor, is designed to analyze users' form in real-time, facilitating quick and efficient corrections. The process involves activating the device's camera, with the model calculating angles, landmarks, and all body parts in the background. The immediate display of form accuracy, akin to a professional video 'model,' is a crucial aspect of the application.<br>
+              <br>
+              However, a significant challenge during the project's coding phase set us back on our tight two-week deadline. In our three-person group, only one member had an Apple computer, while the others used Windows. This posed a substantial complication, as OpenCV struggled to detect Windows computers' cameras, regardless of attempted workarounds. Opting for exclusive compatibility with Apple products was not an option, as it would compromise the project's accessibility.<br>
+              <br>
+              Our solution was to find a way to detect the device's camera and then adapt the code accordingly. This search was no small feat, considering OpenCV's prominence in the field of computer vision. Since we were working with the Streamlit framework, Yuichiro Tachibana devised a solution to detect the device's camera across various operating systems. However, this solution, while effective, proved more intricate than OpenCV, causing further delays.<br>
+              <br>
+              Fortunately, Tachibana also created a program capable of detecting landmarks on users. Adapting this code to implement our own seemed straightforward. However, our reliance on Streamlit became another hurdle. While Streamlit is user-friendly, easily coded in Python, and free, it is relatively unstable and inefficient when handling complex computing code. Although users can have their cameras detected using the app, any processing behind the scenes causes the app to crash. While we believe it's possible to develop such a program using Streamlit, a viable solution remains elusive.<br>
+              <br>
+              Despite these challenges, our journey provided valuable insights not only into how OpenCV operates but also into the process of seeking and implementing solutions independently. We learned to comprehend and adapt existing code, understanding how to make a computer vision application accessible to a broad audience through the Streamlit framework.
+              <br>
+              This experience underscored the importance of adaptability, problem-solving, and a deep understanding of frameworks to overcome unforeseen challenges in software development.
+            </p>
+
+            <!-- Add more content as needed -->
+
+          </section>
+        </article>
+      </div>
+
+      		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://twitter.com/Clem733" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://github.com/Clement733" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<!--<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>-->
+						<li><a href="mailto:ciprianiclement@outlook.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Cipriani Clement</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
